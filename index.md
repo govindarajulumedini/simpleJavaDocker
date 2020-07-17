@@ -86,7 +86,7 @@ CMD ["java", "-jar", "/opt/app/simple-docker-project-1.0-SNAPSHOT.jar"]
 	docker build .
 	
  ```
- OUTPUT:
+ **OUTPUT:**
  ```markdown
 	Sending build context to Docker daemon    148kB
 	 
@@ -137,7 +137,7 @@ CMD ["java", "-jar", "/opt/app/simple-docker-project-1.0-SNAPSHOT.jar"]
 	#copy docker id from above mentioned command output and run docker image
 	docker run ravaantechky/simple-java-docker
  ```
- OUTPUT:
+ **OUTPUT:**
  ```markdown
 	Hello World
  ```
