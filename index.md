@@ -4,7 +4,10 @@ Demonstration of execution of core Java application into Docker container.
 ### Overview:
 This document explains step by step how to create docker image and execute it into Docker container. For demonstration purpose, we use simple core Java project which build using Maven tool.
 
-### Dockerfile :
+### Docker:
+You will get Docker informayion on [<i class="fa fa-external-link"></i>](/docker-documentation/) 
+
+### Dockerfile:
 Docker builds images by reading instructions from a Dockerfile. A Dockerfile is a simple text file that contains instructions that can be executed on the command line. Using **docker build** command, you can start a building image with the help of the command-line instructions which is their in the Dockerfile.
 
 Common Dockerfile instructions start with RUN, ENV, FROM, MAINTAINER, ADD, and CMD, among others.
@@ -28,7 +31,7 @@ Common Dockerfile instructions start with RUN, ENV, FROM, MAINTAINER, ADD, and C
 
 | Technology | Version |
 | ------- | ------- |
-| Core Java | Adopt Open JDK 8 |
+| Core Java | Adopt Open JDK 11.0 |
 
 ### Tools :
 
