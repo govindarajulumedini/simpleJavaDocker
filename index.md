@@ -4,6 +4,23 @@ Demonstration of execution of core Java application into Docker container.
 ### Overview:
 This document explains step by step how to create docker image and execute it into Docker container. For demonstration purpose, we use simple core Java project which build using Maven tool.
 
+### Simple core Java project with Maven tool:
+
+Command to create project from Maven tool, -
+```markdown
+mvn archetype:generate
+	-DgroupId={project-packaging}
+	-DartifactId={project-name}
+	-DarchetypeArtifactId={maven-template}
+	-DinteractiveMode=false
+```
+
+In a terminal Linux OR Mac OR command prompt (Windows), navigate to the folder you want to create the Java project and type above mentioned command. This tells Maven to generate a Java project from a Maven template. For example,
+
+```markdown
+mvn archetype:generate -DgroupId=com.ravaan.techky -DartifactId=simple-docker-project -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
+
 ### Docker:
 You will get Docker informayion on [<i class="fa fa-external-link"></i>](/docker-documentation/) 
 
